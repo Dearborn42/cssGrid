@@ -29,7 +29,6 @@ body{
 
 .png4 {
     grid-area: png4;
-    border: 1px solid purple;
 }
 .png5 {
     grid-area: png5;
