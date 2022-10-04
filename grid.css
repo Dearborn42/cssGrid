@@ -1,0 +1,127 @@
+p {
+    font-size: 18px;
+    text-align: right;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: darkred;
+}
+.Navbar{
+    background-color: rgb(185, 105, 105);
+}
+
+.nav{
+    font-size: 20px;
+    color: rgb(73, 71, 71);
+    text-align: left;
+}
+body{
+    border: 10px solid grey;
+}
+.png1{
+    grid-area: png1;
+}
+.png2 {
+    grid-area: png2;
+}
+.png3 {
+    grid-area: png3;
+}
+
+.png4 {
+    grid-area: png4;
+    border: 1px solid purple;
+}
+.png5 {
+    grid-area: png5;
+}
+
+.png6 {
+    grid-area: png6;
+}
+
+.png7 {
+    grid-area: png7;
+}
+
+.png8 {
+    grid-area: png8;
+}
+.png9 {
+    grid-area: png9;
+}
+
+.png10 {
+    grid-area: png10;
+}
+
+.png11 {
+    grid-area: png11;
+}
+
+.png12 {
+    grid-area: png12;
+}
+
+.png13 {
+    grid-area: png13;
+}
+
+.png14 {
+    grid-area: png14;
+}
+
+.png15 {
+    grid-area: png15;
+}
+
+.png16 {
+    grid-area: png16;
+}
+.png17 {
+    grid-area: png17;
+}
+
+.png18 {
+    grid-area: png18;
+}
+
+.png19 {
+    grid-area: png19;
+}
+
+.png20 {
+    grid-area: png20;
+}
+
+.png21 {
+    grid-area: png21;
+}
+
+.sig{
+    grid-area:sig;
+    padding-top: 125px;
+    padding-right: 5px;
+}
+
+.container {
+    display: grid;
+    border: 1px solid blue;
+    width: auto;
+    height: auto;
+    grid-template-columns:auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-template-areas:
+    "png21 png21 png21 png21 png1"
+    "png21 png21 png21 png21 png2"
+    "png21 png21 png21 png21 png3"
+    "png4 png4 png5 png6 png7"
+    "png8 png9 png9 png10 png11"
+    "png8 png13 png14 png14 png15"
+    "png12 png13 png16 png17 png18"
+    "png19 png20 png20 . sig";
+}
+
+img{
+    width: 95%;
+    height: 95%;
+}
